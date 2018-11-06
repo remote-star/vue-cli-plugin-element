@@ -7,7 +7,7 @@ module.exports = (api, opts, rootOptions) => {
     }
   })
 
-  api.injectImports(utils.getMain(), `import './plugins/element.js'`)
+  api.injectImports(utils.getMain(), `import './plugins/element'`)
 
   api.render({
     './src/plugins/element.js': './templates/src/plugins/element.js',
